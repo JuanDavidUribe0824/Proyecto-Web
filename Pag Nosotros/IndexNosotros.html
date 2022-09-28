@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PagWeb2022</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+            </div>
+            
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Quienes somos</h1>
+            <p class="hero__paragraph">Somos un equipo conformado de 5 personas Luisa C.
+                Juan Uribe. Leydy R. Andres C. Alejandra G. en donde nuestro proyecto es poder compartirte una excelente experencia a la hora de ver peliculas, series, novelas,libros y todo el entretenimiento que deseas
+            </p>
+        </section>
+    </header>
+
+    <main>
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="assets/images/iconoLeft.png" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Series<span class="testimony__course"> Todo tipo de categoria </span></h2>
+                        <p class="testimony__review">En esta sesion encontraras series de todo tipo,hasta de tus libros favoritos y de todos los volumenes. ¿Que esperas para vivir esta gran experencia?</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="assets/images/ricky morty.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Peliculas<span class="testimony__course">Todas las categorias</span></h2>
+                        <p class="testimony__review">Aca podras encontrar todas las peliculas que desees ver con generos combinados,generos independientes y de todo tipo de duracion</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="assets/images/Pelicula.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Libros<span class="testimony__course">Todas las categorias</span></h2>
+                        <p class="testimony__review">Aca encontraras las mejores trilogias de libros que puedas creer,vivir una excelente lectura con unos libros exclusivos que solamente encontraras aca.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="assets/images/Libros.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="assets/images/iconoRight.png" class="testimony__arrow" id="next">
+            </div>
+        </section>
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Menú</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="../Pag Peliculas/IndexPeliculas.html" class="nav__links">Peliculas</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="../Pag Libros/IndexLibros.html" class="nav__links">Libros</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="../Pag Series/IndexSeries.html" class="nav__links">Series</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="../indexPrincipal.html" class="nav__links">Home</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Unete para más</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="assets/images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="assets/images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="assets/images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; T.E.R.S 2022</h3>
+        </section>
+    </footer>
+
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/questions.js"></script>
+    <script src="assets/js/menu.js"></script>
+</body>
+
+</html>
